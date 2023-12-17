@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(224, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 5px 0px 5px;
+}
+
+
+.navbar a{
+    color: white;
+    
+    line-height: 20px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+
+.title{
+    margin-top: 5px;
+
+}
+
+.navbar-option{
+    height: 40px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    border: 2px solid transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-option i{
+    font-size: 2rem;
+}
+
+.navbar-option:hover{
+    border: 2px solid white;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+.experience-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.experience{
+    width: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
+
+p{
+    margin-top: 2rem;
+}
+ul{
+    text-align: left;
+}
+
+
+footer{
+    /* position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: end; */
+    text-align: center;
+}

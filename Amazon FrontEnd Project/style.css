@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border:border-box; */
+    
+}
+
+body{
+    background-color: rgb(224, 220, 220);
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px 0px 5px;
+}
+
+.navlogo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    width: 113px;
+    height: 50px;
+    background-size: cover;
+}
+
+.border{
+    border: 1px solid transparent;
+    
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+
+/** box2 **/
+.deliever-add{
+    color: #CCCCCC;
+    font-size: .85rem;
+    margin-left: 15px;
+    
+}
+
+.country{
+    color:white;
+    font-size: 1rem;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-address{
+    padding: 0px 9px;
+}
+
+/** box3 **/
+
+.nav-search{
+    display:flex;
+    justify-content: space-evenly;
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    
+}
+
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    width: 50px;
+    border: none; /** removes the thin black border line **/
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon{
+    width: 45px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color:#0f1111;
+}
+
+.nav-language{
+    padding: 5px;
+    display:flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-flag{
+    margin-right: 2px;
+    height: 16.2px;
+    width: 21.6px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png");
+    background-size: cover;
+
+}
+
+.nav-language p{
+    font-weight: 700;
+}
+
+
+/** box 4 **/
+
+span{
+    font-size: 0.7rem;
+}
+
+.nav-signin{
+    padding: 5px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box6 **/
+.nav-return{
+    padding: 5px;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart {
+    padding: 5px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops {
+    display: inline;
+    font-size: .85rem;
+    
+}
+
+
+/** main **/
+
+
+
+/** medicine section **/
+
+.ad{
+    padding: 0px 55px 0px 55px;
+    z-index: -1;
+    position: relative;
+}
+
+.medicine-section{
+    
+    background: linear-gradient(to bottom, transparent, 70%, rgb(224, 220, 220)) ,url("medicine_image.jpg");
+    background-size: cover;
+    height: 600px;
+    
+    
+    
+    
+}
+
+main{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    /* background-color: blue; */
+    /* display: flex;
+    flex-direction: column;
+    
+    align-items: start; */
+    position: relative;
+    top: -100px;
+
+}
+/** shop section **/
+.shop-section{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    padding: 0% 2.5% 0% 2.5%;
+    
+    
+    z-index: 1;
+    
+    
+}
+
+.shop-section p{
+    margin-top: 5%;
+}
+
+.box{
+    height: 400px;
+    width: 22%;
+    background-color: white;
+    padding: 20px 0px 15px ;
+    margin-top: 2.5rem;
+    
+}
+
+.box-image{
+    height: 300px;
+    background-size: cover;
+
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    
+}
+
+.box-content p{
+    color: #007185;
+}
+
+/** book section **/
+
+.book-section{
+    background-color: white;
+    
+    margin-top: 2.5rem;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+
+}
+
+
+
+.book-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+
+.book{
+    height: 200px;
+    width: 9%;
+    background-size: cover;
+
+}
+
+
+/** footer **/
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 250px 0px 250px;
+
+}
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.foot-panel2 ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: .85rem;
+    color: #DDDDDD;
+    text-decoration: none;
+    
+}
+
+.foot-panel2 ul a:hover{
+    text-decoration: underline;
+}
+
+
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: .05px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    /* font-size:.75rem;
+    text-align:center; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyright{
+    padding-top: 5px;
+}
+
+
+
+
+
