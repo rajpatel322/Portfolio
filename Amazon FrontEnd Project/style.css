@@ -239,7 +239,7 @@ main{
 
 .box-image{
     height: 80%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
